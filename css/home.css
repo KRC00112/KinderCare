@@ -1,0 +1,89 @@
+*{
+    box-sizing:border-box;
+}
+
+
+.header{
+        position:relative;
+        border:solid 1px red;
+        height:60px;
+        font-size:0px;
+        background-color: DodgerBlue;
+       
+}
+
+.button-band button {
+    position: relative;
+    top:0px;
+    left:800px;
+    height:60px;
+    width:160px;
+    background-color: #003cff; 
+    border: 1px solid rgb(2, 21, 143); 
+    color: white;
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+  }
+  
+  .button-band button:not(:last-child) {
+    border-right: none;
+  }
+  
+
+  .button-band:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+
+  .button-band button:hover {
+    background-color: #0a00cb;
+  }
+  
+.ham{
+    position:fixed;
+    bottom:50px;
+    left:1330px;
+    height:6px;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    position:fixed;
+    bottom:617px;
+    left:1289px;
+    width:99px;
+    
+    height:60px;
+    
+  }
+  
+ 
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+
+.row{
+    border:solid 1px red;
+    height:150px;
+    font-size:0px;
+
+}
+
+
+
+
+
+ h3{
+    position:fixed;
+    top:10px;
+    left:30px;
+  
+}
