@@ -25,7 +25,7 @@
 
 			if(searchBar.value == 'Search a Crèche ...'){
 				searchBar.value = ''
-				searchBar.placeholder = 'Search a Crèche ...'
+				searchBar.placeholder = 'Search a Crèche ....'
 		}
 	}
 
