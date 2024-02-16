@@ -97,7 +97,7 @@
 				
 								<div class="banner-slide">
 									<figure>
-										<img src="slide-1.jpg">
+										<img src="images/slide-1.jpg">
 									</figure>
 									
 									<div class="banner-slide-overlay">
